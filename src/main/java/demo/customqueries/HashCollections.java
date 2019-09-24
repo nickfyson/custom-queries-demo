@@ -16,6 +16,9 @@ public class HashCollections {
         // We want to highlight this undesirable use of HashSet
         exampleSet = new HashSet<String>();
 
+        // We add another undesirable usage in this PR
+        exampleSet = new HashSet<String>();
+
         // Whereas LinkedHashSet is the preferred alternative
         exampleSet = new LinkedHashSet<String>();
 
